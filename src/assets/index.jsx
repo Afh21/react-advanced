@@ -1,0 +1,1 @@
+// Only export image .svg like a component

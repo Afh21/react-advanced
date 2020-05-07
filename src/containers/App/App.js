@@ -9,7 +9,6 @@ function App () {
     <Router>
         <Layout >
           <Switch>
-            <Route path="/" component={HomeContainer} />
             <Route path="/css" component={HomeContainer} />
             <Route path="/patterns" component={HomeContainer} />
             <Route path="/hooks" component={HomeContainer} />
@@ -27,6 +26,7 @@ function App () {
             <Route path="/utils" component={HomeContainer} />
             <Route path="/phrases" component={HomeContainer} />
             <Route path="/verbs" component={HomeContainer} />
+            <Route exact path="/" component={HomeContainer} />
           </Switch>
       </Layout>
     </Router>

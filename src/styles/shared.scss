@@ -1,0 +1,35 @@
+.ant-col {
+  margin: 10px;
+}
+
+.ant-layout {
+  background-color: #ffffff;
+}
+
+.card {
+  width: 100%;
+  height: 300px;
+  padding: 4%;
+  border-radius: 10px;
+
+  &-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &-body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+.card-neumorphism {
+  border-radius: 20px;
+  background: #FFFFFF;
+  box-shadow:  20px 20px 40px #e6e6e6, 
+              -20px -20px 40px #ffffff;
+}

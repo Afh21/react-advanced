@@ -2,14 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Layout from '../../components/Layout/Index'
-import HomeContainer from '../Home/Home'
+import HomeContainer from '../Home/Home.jsx'
+import CssContainer from '../Css/Css.jsx'
 
 function App () {
   return (
     <Router>
         <Layout >
           <Switch>
-            <Route path="/css" component={HomeContainer} />
+            <Route path="/css" component={CssContainer} />
             <Route path="/patterns" component={HomeContainer} />
             <Route path="/hooks" component={HomeContainer} />
             <Route path="/functions" component={HomeContainer} />
